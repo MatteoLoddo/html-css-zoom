@@ -12,6 +12,7 @@
 }
 /* UTILITY */
 .section{
+    align-content: stretch;
     background-color: black;
     /* solo per debug */
     
@@ -50,6 +51,7 @@
 }
 
 
+
 .main-content{
     margin: auto;
     gap: 15px  10px;
@@ -79,9 +81,6 @@
     bottom: 0;
 }
 
-.section.main{
-    height: 90vh;
-}
 
 /* COMAND SECTION */
 .section.comand{
