@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* VAR */
+:root{
+    --bg-button:#4d4d4d;
+    --color-text-light:#fff;
+}
+/* UTILITY */
+.section{
+    background-color: black;
+    /* solo per debug */
+    
+}
+
+.container{
+    /* solo  per debug */
+    /* border: 1px dashed red; */
+}
+
+.bg-button-light{
+    background-color: var(--bg-button);
+
+}
+
+.color-light{
+    color: var(--color-text-light);
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* ////////////////////////////////////////////////// */
+.section.head{
+    color: #fff;
+    gap: 0.5rem;
+    justify-content: end;
+    display: flex;
+}
+.container.button a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+}
+
+
+.main-content{
+    margin: auto;
+    gap: 15px  10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    /* solo  per debug */
+    
+}
+
+.user{
+    flex-grow: 1;
+    width: calc(100% / 7 - 10px);
+    min-height: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://i.picsum.photos/id/411/200/200.jpg?hmac=OVYhfXZUSeIPuy2vvqvn56l4Y8YZjUzJ57HIaxnjdTQ);
+/* solo per debug */
+}
+
+.name-user{
+    padding: 0.3rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+}
+
+.section.main{
+    height: 90vh;
+}
+
+/* COMAND SECTION */
+.section.comand{
+    padding: 0;
+    gap: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container.comand{
+    gap: 0.5rem;
+}
+
+.comand{
+    padding: 5px;
+    display: flex;
+}
+
+.container.left{
+    text-align: center;
+}
+
+.container.right{
+    padding: 5px;
+    align-self: center;
+}
+
+.comand.end-call div{
+    background-color: #4d4d4d;
+    color:red;
+    padding: 1rem
+}
+
+.comand.end-call{
+    padding: 0;
+}
+
+
+
