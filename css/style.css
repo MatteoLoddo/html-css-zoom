@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 
 /* VAR */
 :root{
@@ -38,6 +45,8 @@
 
 /* ////////////////////////////////////////////////// */
 .section.head{
+    padding: 0.5rem;
+    /* min-height: 50px ; */
     color: #fff;
     gap: 0.5rem;
     justify-content: end;
@@ -81,14 +90,21 @@
     bottom: 0;
 }
 
+.section.main{
+    flex-grow: 1;
+    /* height: calc(100vh - 100px); */
+}
+
 
 /* COMAND SECTION */
 .section.comand{
+    /* min-height: 50px; */
     padding: 0;
     gap: 1rem;
     justify-content: space-between;
     display: flex;
 }
+
 
 .container.comand{
     gap: 0.5rem;
